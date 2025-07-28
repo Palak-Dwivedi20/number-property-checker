@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <title>Number Analyzer</title>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet" />
+    <link 
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css"
+    integrity="sha512-Fo3rlrZj/k7ujTTXRN7UVP4vF+7I6F5Nn1K6dJYJ0P/IRdN0kTkzI7tHqF8TVyZzP9t6VZzFZJrJpQqXdf8V0A=="
+    crossorigin="anonymous"
+    referrerpolicy="no-referrer"/>
+    <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+    <div class="app">
+    <h1><i class="fas fa-square-root-variable"></i> Number Analyzer</h1>
+    
+    <input type="number" id="numInput" placeholder="Enter a number..." />
+    
+    <button onclick="checkNumber()">
+      <i class="fas fa-magic"></i> Check Properties
+    </button>
+    
+    <div id="result" class="result-box"></div>
+  </div>
+
+  <script src="app.js"></script>
+</body>
+</html>

@@ -1,0 +1,198 @@
+  /* * {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+}
+
+body {
+  background: linear-gradient(to right, dbe9f4, #a7c5eb);
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.app {
+  background-color: #ffffff;
+  padding: 30px 40px;
+  border-radius: 15px;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+  width: 100%;
+  max-width: 400px;
+  text-align: center;
+}
+
+.app h1 {
+  font-size: 28px;
+  margin-bottom: 25px;
+  color: #2c3e50;
+}
+
+input[type="number"] {
+  width: 100%;
+  padding: 12px;
+  font-size: 16px;
+  border: 2px solid #2980b9; 
+  border: 2px solid #a7c5eb;
+  border-radius: 10px;
+  margin-bottom: 20px;
+  outline: none;
+  transition: 0.3s;
+}
+
+input[type="number"]:focus {
+  border-color: #5dade2;
+  box-shadow: 0 0 8px rgba(93, 173, 226, 0.3);
+}
+
+button {
+  padding: 12px 20px;
+  font-size: 16px;
+  background-color: #3498db;
+  color: white;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+  transition: 0.3s;
+  width: 100%;
+}
+
+button:hover {
+  background-color: #2980b9;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.15);
+}
+
+.result-box {
+  margin-top: 25px;
+  text-align: left;
+}
+
+.result-item {
+  background: #ecf0f1;
+  padding: 10px 15px;
+  margin: 8px 0;
+  border-radius: 8px;
+  font-size: 16px;
+  display: flex;
+  justify-content: space-between;
+  color: #2c3e50;
+  background-color: #f4f6f7;
+} 
+
+@media screen and (max-width: 600px) {
+  .container {
+    padding: 15px;
+  }
+
+  .result-item {
+    font-size: 14px;
+  }
+
+  button, input {
+    font-size: 16px;
+  }
+} */
+
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+}
+
+body {
+  background: linear-gradient(to right, #dbe9f4, #a7c5eb);
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 20px; 
+}
+
+.app {
+  background-color: #ffffff;
+  padding: 30px 20px;
+  border-radius: 15px;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+  width: 100%;
+  max-width: 400px;
+  text-align: center;
+}
+
+.app h1 {
+  font-size: 24px;
+  margin-bottom: 20px;
+  color: #2c3e50;
+}
+
+input[type="number"] {
+  width: 100%;
+  padding: 12px;
+  font-size: 16px;
+  border: 2px solid #a7c5eb;
+  border-radius: 10px;
+  margin-bottom: 20px;
+  outline: none;
+  transition: 0.3s;
+}
+
+input[type="number"]:focus {
+  border-color: #5dade2;
+  box-shadow: 0 0 8px rgba(93, 173, 226, 0.3);
+}
+
+button {
+  padding: 12px 20px;
+  font-size: 16px;
+  background-color: #3498db;
+  color: white;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+  transition: 0.3s;
+  width: 100%;
+}
+
+button:hover {
+  background-color: #2980b9;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.15);
+}
+
+.result-box {
+  margin-top: 25px;
+  text-align: left;
+}
+
+.result-item {
+  background: #f4f6f7;
+  padding: 10px 15px;
+  margin: 8px 0;
+  border-radius: 8px;
+  font-size: 16px;
+  display: flex;
+  justify-content: space-between;
+  color: #2c3e50;
+}
+
+@media screen and (max-width: 480px) {
+  .app {
+    padding: 25px 15px;
+  }
+
+  .app h1 {
+    font-size: 20px;
+  }
+
+  input,
+  button {
+    font-size: 15px;
+  }
+
+  .result-item {
+    font-size: 14px;
+    flex-direction: column;
+    gap: 4px;
+  }
+}
