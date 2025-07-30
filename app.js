@@ -47,7 +47,7 @@ function isPalindorme(n) {
 }
 
 function isArmstrong(n) {
-    const digit = n.toString().split();
+    const digit = n.toString().split("");
     const power = digit.length;
     const sum = digit.reduce((acc, d) => acc + Math.pow(parseInt(d), power), 0);
     return sum === n;
